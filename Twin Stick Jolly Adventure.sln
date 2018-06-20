@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick Jolly Adventure", "Twin Stick Jolly Adventure.csproj", "{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick Jolly Adventure.Plugins", "Twin Stick Jolly Adventure.Plugins.csproj", "{2E581CE8-0260-49FE-A8C5-6D011EB47545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick Jolly Adventure.Editor", "Twin Stick Jolly Adventure.Editor.csproj", "{04D7F9CA-EAC8-5C3F-E69F-703603495833}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick Jolly Adventure", "Twin Stick Jolly Adventure.csproj", "{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick Jolly Adventure.Editor.Plugins", "Twin Stick Jolly Adventure.Editor.Plugins.csproj", "{44357D7E-1B17-6B87-CE08-8E7CCE73AF78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick Jolly Adventure.Editor", "Twin Stick Jolly Adventure.Editor.csproj", "{04D7F9CA-EAC8-5C3F-E69F-703603495833}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,27 +17,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2E581CE8-0260-49FE-A8C5-6D011EB47545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E581CE8-0260-49FE-A8C5-6D011EB47545}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E581CE8-0260-49FE-A8C5-6D011EB47545}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E581CE8-0260-49FE-A8C5-6D011EB47545}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04D7F9CA-EAC8-5C3F-E69F-703603495833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04D7F9CA-EAC8-5C3F-E69F-703603495833}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04D7F9CA-EAC8-5C3F-E69F-703603495833}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04D7F9CA-EAC8-5C3F-E69F-703603495833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{44357D7E-1B17-6B87-CE08-8E7CCE73AF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{44357D7E-1B17-6B87-CE08-8E7CCE73AF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44357D7E-1B17-6B87-CE08-8E7CCE73AF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44357D7E-1B17-6B87-CE08-8E7CCE73AF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D7F9CA-EAC8-5C3F-E69F-703603495833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D7F9CA-EAC8-5C3F-E69F-703603495833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D7F9CA-EAC8-5C3F-E69F-703603495833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D7F9CA-EAC8-5C3F-E69F-703603495833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DB13E553-33DD-413B-BB7F-A1549DAC2D9C}
+		SolutionGuid = {CEC07E85-0F28-48E7-9712-7E0485B289E8}
 	EndGlobalSection
 EndGlobal

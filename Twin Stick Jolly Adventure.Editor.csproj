@@ -282,6 +282,9 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WebGL.Extensions">
       <HintPath>Library\UnityAssemblies\UnityEditor.WebGL.Extensions.dll</HintPath>
     </Reference>
@@ -338,13 +341,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Twin Stick Jolly Adventure.csproj">
-      <Project>{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}</Project>
-      <Name>Twin Stick Jolly Adventure</Name>
-    </ProjectReference>
     <ProjectReference Include="Twin Stick Jolly Adventure.Plugins.csproj">
       <Project>{2E581CE8-0260-49FE-A8C5-6D011EB47545}</Project>
       <Name>Twin Stick Jolly Adventure.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="Twin Stick Jolly Adventure.csproj">
+      <Project>{FEEFA47B-AAD5-47E8-31EE-35858F71D67A}</Project>
+      <Name>Twin Stick Jolly Adventure</Name>
     </ProjectReference>
     <ProjectReference Include="Twin Stick Jolly Adventure.Editor.Plugins.csproj">
       <Project>{44357D7E-1B17-6B87-CE08-8E7CCE73AF78}</Project>
